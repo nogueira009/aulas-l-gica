@@ -1,0 +1,10 @@
+# arquivos temporários
+*.temporários
+
+# arquivos de compilação
+*.exe
+
+#diretorio de dependencias
+node_modules/
+
+# Arquivo expecífico com dados e senhas
