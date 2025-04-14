@@ -7,4 +7,4 @@ console.log(`esses 4 times irão jogar a libertadores`)
 console.log(times.slice(11,15))
 
 console.log(`times rebaixados para série b`)
-console.log(times.splice(17,20))
+console.log(times.splice(17,20)) 
