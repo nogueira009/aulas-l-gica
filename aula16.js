@@ -11,4 +11,13 @@ function criptografar(texto){
     return resultado
 }
 
+function descriptografar(texto){
+    let resultado = ''
+    for(letra of texto){
+       let posição = alfabeto.indexOf(letra)
+       resultado += segredo[posição]
+    }
+    return resultado
+}
+
 console.log(criptografar('SENAI'))

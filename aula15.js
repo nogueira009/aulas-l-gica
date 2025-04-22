@@ -37,8 +37,8 @@ function ParImpar(numero){
     }else{
         console.log(`${numero} é impar`)
     }
-}
-ParImpar(5)
+} 
+ParImpar(5)      
 ParImpar(10)
 
 function Media(n1,n2){
@@ -47,3 +47,10 @@ function Media(n1,n2){
 }
 
 console.log(Media(6,8))
+//armazenei o retorno da função em uma variavel
+let valor = Media(9,7)
+//utilizei o retorno da função para escrever na tela
+console.log(valor)
+//utilizei a variavel que recebeu o retorno da função para
+//chamar a função Par ou ímpar passando o valor como parametro
+ParImpar(valor)
